@@ -14,10 +14,7 @@
             "name": "Python: Attach",
             "type": "python",
             "request": "attach",
-            "localRoot": "${workspaceFolder}",
-            "remoteRoot": "${workspaceFolder}",
             "port": 3000,
-            "secret": "my_secret",
             "host": "localhost"
         },
         {
@@ -43,10 +40,6 @@
                 "runserver",
                 "--noreload",
                 "--nothreading"
-            ],
-            "debugOptions": [
-                "RedirectOutput",
-                "Django"
             ]
         },
         {
@@ -75,10 +68,6 @@
             "request": "launch",
             "args": [
                 "${workspaceFolder}/development.ini"
-            ],
-            "debugOptions": [
-                "RedirectOutput",
-                "Pyramid"
             ]
         },
         {
@@ -107,9 +96,6 @@
             "args": [
                 "arg1",
                 "arg2"
-            ],
-            "debugOptions": [
-                "RedirectOutput"
             ]
         }
     ]
